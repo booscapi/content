@@ -52,8 +52,8 @@ There's a "willful violation" of the above algorithm: if one of the operands is 
 ### Comparison with no type conversion
 
 ```js
-1 == 1; // true
-"hello" == "hello"; // true
+1 === 1; // true
+"hello" === "hello"; // true
 ```
 
 ### Comparison with type conversion
